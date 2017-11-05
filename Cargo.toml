@@ -1,0 +1,11 @@
+[package]
+name = "hello_perl"
+version = "0.1.0"
+authors = ["booyaa <booyaabooyaabooyaa@gmail.com>"]
+
+[dependencies]
+libc = "0.2"
+
+[lib]
+name = "integers"
+crate-type = ["cdylib"]
